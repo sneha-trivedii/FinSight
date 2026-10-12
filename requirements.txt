@@ -1,0 +1,29 @@
+# FinSight: Dependencies
+# Core Backend Framework
+fastapi>=0.104.1,<0.116.0
+uvicorn[standard]>=0.24.0
+pydantic>=2.5.0,<3.0.0
+pydantic-settings>=2.0.0
+python-dotenv>=1.0.0
+python-multipart>=0.0.6
+
+# PDF Parsing & Extraction
+pymupdf>=1.24.0
+
+# Retrieval: Vector & Keyword Search
+faiss-cpu>=1.8.0
+rank-bm25>=0.2.2
+
+# LLM & Embeddings (Google Gemini)
+google-generativeai>=0.7.0
+
+# Evaluation & Dataset Benchmarks
+ragas>=0.2.0
+langchain>=0.2.0
+langchain-community>=0.2.0
+langchain-core>=0.2.0
+langchain-google-genai>=1.0.0
+datasets>=2.19.0
+pandas>=2.0.0
+numpy>=1.24.0
+requests>=2.31.0
